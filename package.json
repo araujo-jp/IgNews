@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "cz": "git-cz"
+    "commit": "git-cz",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@prismicio/client": "^5.1.0",
